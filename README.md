@@ -1,9 +1,9 @@
-## CACTI - System SNMP error - SNMP::get(): No response from ....
+### CACTI - System SNMP error - SNMP::get(): No response from ....
 This error occurs in CACTI when adding a device or when devices cannot currently connect via Simple Network Management Protocol (SNMP), and is caused by not making the correct SNMP installation and service settings. It also causes Data Query and Graph problems like " ERROR:C:/Apache24/htdocs/cacti/rra/.........rrd" can not exist"
 
 ____________________________________________________________________________________________________
 
-#FOR WINDOWS
+##FOR WINDOWS
 
 1. Installing SNMP Service and WMI SNMP Provider
 
@@ -26,7 +26,7 @@ Add-WindowsCapability -Online -Name "WMI-SNMP-Provider.Client~~~~0.0.1.0"
 4. Click **Apply** to save the changes.
 ___________________________________________________________________________________________________________
 
-FOR LINUX :
+##FOR LINUX :
 
 1.install SNMP (When prompted, type “Y” to continue)
 ```bash 
